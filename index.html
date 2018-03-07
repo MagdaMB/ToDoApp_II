@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ToDoApp</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+	<div class="div">
+		<div class="div__header">
+			<h3>Wprowadź nową notatkę podając jej tutył i datę</h3>
+		</div>
+
+		<form class="form">
+			<div class="div__input">
+				<input type="text" name="title" placeholder="Podaj tytuł notatki" id="title">
+				<input type="date" name="date" id="date">
+			</div>
+
+			<div>
+				<button type="button" id="button" class="addBtn">Wprowadź</button>
+			</div>
+		</form>
+	</div>
+
+	<div>
+		<div class="div__header">
+			<h3>Notes: </h3>
+		</div>
+
+		<div class="div__list">
+			<ol id="myList" class="list">
+			
+			</ol>
+		</div>
+	</div>
+</div>	
+
+<script type="text/javascript" src="script.js">
+
+</script>
+</body>
+</html>
